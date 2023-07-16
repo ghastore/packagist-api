@@ -3,7 +3,7 @@ FROM alpine
 LABEL "name"="Packagist API Fetch"
 LABEL "description"="GitHub Action to get Packagist API responses and save them to repository."
 LABEL "maintainer"="iHub TO <mail@ihub.to>"
-LABEL "repository"="https://github.com/ghastore/api-packagist"
+LABEL "repository"="https://github.com/ghastore/packagist-api"
 LABEL "homepage"="https://github.com/ghastore"
 
 COPY *.sh /

@@ -17,7 +17,7 @@ jobs:
     name: "Fetch"
     steps:
       - name: "symfony"
-        uses: ghastore/api-packagist@main
+        uses: ghastore/packagist-api@main
         with:
           git_repo: "${{ github.server_url }}/${{ github.repository }}.git"
           git_user: "${{ secrets.USER_NAME }}"
