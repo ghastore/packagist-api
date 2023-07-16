@@ -1,0 +1,12 @@
+FROM alpine
+
+LABEL "name"="Packagist API Fetch"
+LABEL "description"="GitHub Action to get Packagist API responses and save them to repository."
+LABEL "maintainer"="iHub TO <mail@ihub.to>"
+LABEL "repository"="https://github.com/ghastore/api-packagist"
+LABEL "homepage"="https://github.com/ghastore"
+
+COPY *.sh /
+RUN apk add --no-cache bash curl git git-lfs jq
+
+ENTRYPOINT ["/entrypoint.sh"]
