@@ -3,8 +3,8 @@
 # Get Packagist API responses and save them to repository.
 #
 # @package    Bash
-# @author     Kitsune Solar <mail@kitsune.solar>
-# @copyright  2023 iHub TO
+# @author     Kai Kimera <mail@kai.kim>
+# @copyright  2023 Kai Kimera
 # @license    MIT
 # @version    0.0.1
 # @link       https://github.com/ghastore
@@ -152,7 +152,7 @@ _download() {
 }
 
 # -------------------------------------------------------------------------------------------------------------------- #
-# -------------------------------------------------< INIT FUNCTIONS >------------------------------------------------- #
+# -------------------------------------------------< RUNNING SCRIPT >------------------------------------------------- #
 # -------------------------------------------------------------------------------------------------------------------- #
 
 init "$@"; exit 0
